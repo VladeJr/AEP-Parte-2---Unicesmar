@@ -48,7 +48,7 @@ urbanshare/
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/urbanshare.git
+git clone https://github.com/VladeJr/AEP-Parte-2---Unicesmar.git
 cd urbanshare/backend
 ```
 
