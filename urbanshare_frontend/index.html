@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>UrbanShare</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>UrbanShare - Compartilhamento de Vagas</h1>
+
+    <form id="vagaForm">
+      <input type="text" id="endereco" placeholder="Endereço da vaga" required />
+      <input type="text" id="horario" placeholder="Horário disponível" required />
+      <button type="submit">Cadastrar Vaga</button>
+    </form>
+
+    <h2>Vagas Disponíveis</h2>
+    <ul id="vagasList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
